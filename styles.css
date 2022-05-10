@@ -1,0 +1,66 @@
+
+body {
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.small {
+  font-size: 50px;
+  text-align: center;
+  color: #D8D8D8;
+  font-family: 'Roboto', sans-serif;
+  animation: oppFluct 1s linear infinite;
+}
+
+.gray {
+  color: #D8D8D8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.mainDist {
+  position: fixed;
+  top: 30px;
+  left: 40px;
+}
+
+.distract0 {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  left: 0%;
+}
+
+.distract1 {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  left: 25%;
+}
+
+.distract2 {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  left: 50%;
+}
+
+.flucted {
+  animation: fluct 1s linear infinite;
+}
+
+@keyframes fluct {
+  50% {font-size: 100px;}
+}
+
+@keyframes oppFluct {
+  50% {font-size: 0px;}
+}
